@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film UI UX</string>
+    <string name="masukkan_nama_film">Cari Film</string>
+    <string name="nama_movie">nama_film</string>
+    <string name="cari">CARI</string>
+    <string name="cari_sm">Cari</string>
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="date">Tanggal Rilis</string>
+    <string name="now_playing">TERKINI</string>
+    <string name="upcoming">MENDATANG</string>
+    <string name="movie">Film</string>
+    <string name="category">Kategori</string>
+    <string name="home">Beranda</string>
+
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="favorite">Favorit</string>
+    <string name="share">Bagikan</string>
+    <string name="email_erwandy">erwandy.dev@gmail.com</string>
+    <string name="name_erwandy">Erwandy</string>
+</resources>

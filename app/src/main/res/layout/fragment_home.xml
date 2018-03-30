@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="info.erwandy.dicodingcataloguemovieuiux.HomeFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        // Tab layout to show tabs
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab"
+            android:background="@color/colorPrimary"
+            app:tabTextAppearance="@style/MyCustomTabHeader"
+            app:tabSelectedTextColor="#ffffff"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabIndicatorHeight="3dp"
+            app:tabTextColor="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:tabMode="fixed"
+            app:tabGravity="fill"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        //ViewPager to show tab's fragments
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/tab_padding">
+        </android.support.v4.view.ViewPager>
+
+    </FrameLayout>
+</LinearLayout>

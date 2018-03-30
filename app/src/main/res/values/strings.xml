@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Movie Catalogue UI UX</string>
+    <string name="masukkan_nama_film">Search Movie</string>
+    <string name="nama_movie">name_movie</string>
+    <string name="cari">SEARCH</string>
+    <string name="cari_sm">Search</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date">Date of Release</string>
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="movie">Movie</string>
+    <string name="category">Category</string>
+    <string name="home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="email_erwandy">erwandy.dev@gmail.com</string>
+    <string name="name_erwandy">Erwandy</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_overview">Movie Overview</string>
+    <string name="release_date">Release date</string>
+    <string name="fragment_upcoming">Fragment Upcoming</string>
+    <string name="long_overview">Overview-nya</string>
+    <string name="title_overview">Overview</string>
+    <string name="title_date_of_release">Date of Release:</string>
+    <string name="content_ratings">1000 Ratings (7.5/10)</string>
+    <string name="title_rating">Rating</string>
+    <string name="title_judul">Judulnya</string>
+    <string name="content_tanggal">Tanggalnya</string>
+    <string name="click_me_to_see_the_awesomeness">Click me to see the Awesomeness!</string>
+    <string name="hello_world">Hello World!</string>
+</resources>
