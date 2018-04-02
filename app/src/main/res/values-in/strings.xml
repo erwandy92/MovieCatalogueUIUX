@@ -22,4 +22,6 @@
     <string name="share">Bagikan</string>
     <string name="email_erwandy">erwandy.dev@gmail.com</string>
     <string name="name_erwandy">Erwandy</string>
+    <string name="remove">Movie berhasil dihapus!</string>
+    <string name="save">Movie berhasil disimpan!</string>
 </resources>

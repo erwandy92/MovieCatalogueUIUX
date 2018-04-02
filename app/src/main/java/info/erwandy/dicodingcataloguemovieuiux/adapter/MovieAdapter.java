@@ -1,4 +1,4 @@
-package info.erwandy.dicodingcataloguemovieuiux.adapternowplayingupcoming;
+package info.erwandy.dicodingcataloguemovieuiux.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -26,12 +26,12 @@ import info.erwandy.dicodingcataloguemovieuiux.search.DetailMovieActivity;
  * Created by Nursing Bank IT Dept on 3/19/2018.
  */
 
-public class NowPlayingAndUpcomingAdapter extends RecyclerView.Adapter<NowPlayingAndUpcomingAdapter.ViewHolder> {
+public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
 
     private List<MovieItems> movieLists;
     private Context context;
 
-    public NowPlayingAndUpcomingAdapter(List<MovieItems> movieLists, Context context) {
+    public MovieAdapter(List<MovieItems> movieLists, Context context) {
         // generate constructors to initialise the List and Context objects
         this.movieLists = movieLists;
         this.context = context;

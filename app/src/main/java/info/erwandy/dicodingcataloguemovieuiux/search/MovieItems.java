@@ -8,6 +8,7 @@ import org.json.JSONObject;
 
 public class MovieItems {
 
+    private int mov_id;
     private String mov_title;
     private String mov_description;
     private String mov_date;
@@ -18,6 +19,7 @@ public class MovieItems {
     public MovieItems(JSONObject object){
         try {
 
+            int id              = object.getInt("id");
             String title        = object.getString("title");
             String description  = object.getString("overview");
             String release_date = object.getString("release_date");
@@ -25,6 +27,7 @@ public class MovieItems {
             String rate_count   = object.getString("vote_count");
             String rate         = object.getString("vote_average");
 
+            this.mov_id             = id;
             this.mov_title          = title;
             this.mov_description    = description;
             this.mov_date           = release_date;
@@ -35,6 +38,14 @@ public class MovieItems {
         }catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    public int getMov_id() {
+        return this.mov_id = mov_id;
+    }
+
+    public void setMov_id(int mov_id) {
+        this.mov_id = mov_id;
     }
 
     public String getMov_title() {

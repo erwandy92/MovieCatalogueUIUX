@@ -1,10 +1,14 @@
 package info.erwandy.dicodingcataloguemovieuiux.search;
 
+import android.content.ContentValues;
 import android.content.Context;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
@@ -13,6 +17,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import info.erwandy.dicodingcataloguemovieuiux.R;
+
+import static info.erwandy.dicodingcataloguemovieuiux.database.DatabaseContract.CONTENT_URI;
+import static info.erwandy.dicodingcataloguemovieuiux.database.FavoriteColumns.*;
 
 public class DetailMovieActivity extends AppCompatActivity {
 
@@ -24,7 +31,11 @@ public class DetailMovieActivity extends AppCompatActivity {
     public static String EXTRA_RATE         = "extra_rate";
 
     private TextView tvJudul, tvOverview, tvReleaseDate, tvRating;
-    private ImageView imgPoster;
+    private ImageView imgPoster, imgFav;
+
+    private Boolean isFavorite = false;
+
+    private MovieItems item;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +47,7 @@ public class DetailMovieActivity extends AppCompatActivity {
         tvReleaseDate = (TextView)findViewById(R.id.detailReleaseDate);
         tvRating = (TextView)findViewById(R.id.detailVote);
         imgPoster = (ImageView)findViewById(R.id.imgPoster);
+        imgFav = (ImageView)findViewById(R.id.iv_fav);
 
         String title = getIntent().getStringExtra(EXTRA_TITLE);
         String overview = getIntent().getStringExtra(EXTRA_OVERVIEW);
@@ -59,5 +71,54 @@ public class DetailMovieActivity extends AppCompatActivity {
         tvOverview.setText(overview);
         tvRating.setText(rating_count+" Ratings ("+rating+"/10)");
         Picasso.with(getApplicationContext()).load("http://image.tmdb.org/t/p/w500/"+poster_jpg).into(imgPoster);
+
+        imgFav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(isFavorite){
+                    //if it's set as favorite, click to delete
+                    deleteFav();
+                }else{
+                    //if it's NOT set as favorite, click to save
+                    saveFav();
+                }
+
+                isFavorite = !isFavorite;
+                changeFavColor(isFavorite);
+            }
+        });
     }
+
+    private void changeFavColor(Boolean isFav) {
+        if(isFav){
+            imgFav.setImageResource(R.drawable.ic_favorite);
+        }else{
+            imgFav.setImageResource(R.drawable.ic_favorite_border);
+        }
+    }
+
+    private void saveFav() {
+        ContentValues cv = new ContentValues();
+        cv.put(COL_ID, item.getMov_id());
+        cv.put(COL_TITLE, item.getMov_title());
+        cv.put(COL_POSTER, item.getMov_image());
+        cv.put(COL_RELEASE_DATE, item.getMov_date());
+        cv.put(COL_RATE, item.getMov_rate());
+        cv.put(COL_RATE_COUNT, item.getMov_rate_count());
+        cv.put(COL_OVERVIEW, item.getMov_description());
+
+        getContentResolver().insert(CONTENT_URI, cv);
+        Toast.makeText(this, R.string.save, Toast.LENGTH_SHORT).show();
+    }
+
+    private void deleteFav() {
+        getContentResolver().delete(
+                Uri.parse(CONTENT_URI + "/" + item.getMov_id()),
+                null,
+                null
+        );
+        Toast.makeText(this, R.string.remove, Toast.LENGTH_SHORT).show();
+    }
+
+
 }

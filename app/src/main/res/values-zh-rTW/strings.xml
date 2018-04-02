@@ -22,4 +22,6 @@
     <string name="share">分享其他</string>
     <string name="email_erwandy">erwandy.dev@gmail.com</string>
     <string name="name_erwandy">Erwandy</string>
+    <string name="remove">紀錄已被刪除!</string>
+    <string name="save">紀錄已儲存!</string>
 </resources>

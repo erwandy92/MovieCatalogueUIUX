@@ -37,4 +37,6 @@
     <string name="content_tanggal">Tanggalnya</string>
     <string name="click_me_to_see_the_awesomeness">Click me to see the Awesomeness!</string>
     <string name="hello_world">Hello World!</string>
+    <string name="remove">Movie Removed!</string>
+    <string name="save">Movie Saved!</string>
 </resources>

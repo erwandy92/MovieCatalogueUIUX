@@ -28,8 +28,8 @@ import java.util.List;
 
 import info.erwandy.dicodingcataloguemovieuiux.BuildConfig;
 import info.erwandy.dicodingcataloguemovieuiux.R;
-import info.erwandy.dicodingcataloguemovieuiux.adapternowplayingupcoming.MovieItems;
-import info.erwandy.dicodingcataloguemovieuiux.adapternowplayingupcoming.NowPlayingAndUpcomingAdapter;
+import info.erwandy.dicodingcataloguemovieuiux.adapter.MovieItems;
+import info.erwandy.dicodingcataloguemovieuiux.adapter.MovieAdapter;
 
 
 /**
@@ -97,7 +97,7 @@ public class HomeUpcomingFragment extends Fragment {
 
                     }
 
-                    adapter = new NowPlayingAndUpcomingAdapter(movieLists, getActivity());
+                    adapter = new MovieAdapter(movieLists, getActivity());
                     rvCategory.setAdapter(adapter);
 
                 } catch (JSONException e) {

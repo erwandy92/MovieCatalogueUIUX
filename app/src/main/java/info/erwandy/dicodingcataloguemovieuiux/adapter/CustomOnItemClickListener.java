@@ -1,4 +1,4 @@
-package info.erwandy.dicodingcataloguemovieuiux.adapternowplayingupcoming;
+package info.erwandy.dicodingcataloguemovieuiux.adapter;
 
 import android.view.View;
 
