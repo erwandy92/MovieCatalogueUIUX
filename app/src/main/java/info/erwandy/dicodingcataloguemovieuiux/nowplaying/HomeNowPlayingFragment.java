@@ -109,6 +109,7 @@ public class HomeNowPlayingFragment extends Fragment{
             public void onErrorResponse(VolleyError error) {
 
                 Toast.makeText(getActivity(), "Error" + error.toString(), Toast.LENGTH_SHORT).show();
+                loadUrlData();
 
             }
         });
