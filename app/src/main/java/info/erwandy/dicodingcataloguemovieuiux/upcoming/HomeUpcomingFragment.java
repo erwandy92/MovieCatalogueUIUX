@@ -87,6 +87,7 @@ public class HomeUpcomingFragment extends Fragment {
                         JSONObject data = array.getJSONObject(i);
 
                         MovieItems movies = new MovieItems();
+                        movies.setMov_id(data.getInt("id"));
                         movies.setMov_title(data.getString("title"));
                         movies.setMov_description(data.getString("overview"));
                         movies.setMov_date(data.getString("release_date"));

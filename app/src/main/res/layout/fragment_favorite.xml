@@ -10,4 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/item_now_playing"/>
+    <ProgressBar
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/progressbar_fav"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>

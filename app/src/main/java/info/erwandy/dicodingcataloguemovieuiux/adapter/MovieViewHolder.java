@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import info.erwandy.dicodingcataloguemovieuiux.R;
-import info.erwandy.dicodingcataloguemovieuiux.search.DetailMovieActivity;
+import info.erwandy.dicodingcataloguemovieuiux.DetailMovieActivity;
 
 public class MovieViewHolder extends RecyclerView.ViewHolder {
 
@@ -76,6 +76,7 @@ public class MovieViewHolder extends RecyclerView.ViewHolder {
             @Override
             public void onClick(View v) {
                 Intent Intent = new Intent(itemView.getContext(), DetailMovieActivity.class);
+                Intent.putExtra(DetailMovieActivity.EXTRA_ID, item.getMov_id());
                 Intent.putExtra(DetailMovieActivity.EXTRA_TITLE, item.getMov_title());
                 Intent.putExtra(DetailMovieActivity.EXTRA_OVERVIEW, item.getMov_description());
                 Intent.putExtra(DetailMovieActivity.EXTRA_POSTER_JPG, item.getMov_image());

@@ -11,6 +11,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import info.erwandy.dicodingcataloguemovieuiux.R;
 import info.erwandy.dicodingcataloguemovieuiux.adapter.FavoriteAdapter;
@@ -27,6 +29,7 @@ public class FavoriteFragment extends Fragment {
     private FavoriteAdapter adapter;
 
     RecyclerView rv_favorite;
+    ProgressBar progressBar;
 
     public FavoriteFragment() {
         // Required empty public constructor
@@ -40,32 +43,41 @@ public class FavoriteFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_favorite, container, false);
         context = view.getContext();
 
-        rv_favorite = (RecyclerView)view.findViewById(R.id.rv_category_fav);
+        progressBar = (ProgressBar)view.findViewById(R.id.progressbar_fav);
 
-        setupList();
+        adapter = new FavoriteAdapter(context);
+        adapter.setListNotes(list);
+        rv_favorite = (RecyclerView)view.findViewById(R.id.rv_category_fav);
+        rv_favorite.setLayoutManager(new LinearLayoutManager(context));
+        rv_favorite.setAdapter(adapter);
+
         new loadDataAsync().execute();
+        showToast("Fav Frag onCreate");
 
         return view;
     }
 
     @Override
-    public void onDestroyView() {
-        super.onDestroyView();
+    public void onDestroy() {
+        super.onDestroy();
+        showToast("Fav Frag onDestroy");
     }
 
     @Override
     public void onResume() {
         super.onResume();
         new loadDataAsync().execute();
-    }
-
-    private void setupList() {
-        adapter = new FavoriteAdapter(list);
-        rv_favorite.setLayoutManager(new LinearLayoutManager(context));
-        rv_favorite.setAdapter(adapter);
+        showToast("Fav Frag onResume");
     }
 
     private class loadDataAsync extends AsyncTask<Void, Void, Cursor> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            progressBar.setVisibility(View.VISIBLE);
+            showToast("Fav Frag onPreExe");
+        }
 
         @Override
         protected Cursor doInBackground(Void... voids) {
@@ -81,10 +93,24 @@ public class FavoriteFragment extends Fragment {
         @Override
         protected void onPostExecute(Cursor cursor) {
             super.onPostExecute(cursor);
+            progressBar.setVisibility(View.GONE);
+            showToast("Fav Frag onPostExe");
 
             list = cursor;
-            adapter.replaceAll(list);
+//            adapter.replaceAll(list);
+            adapter.setListNotes(list);
+            adapter.notifyDataSetChanged();
+
+            if (list.getCount() == 0){
+                showToast("Tidak ada data saat ini");
+            }else{
+                showToast("Total list: "+list.getCount());
+            }
         }
+    }
+
+    private void showToast(String message){
+        Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
     }
 
 }

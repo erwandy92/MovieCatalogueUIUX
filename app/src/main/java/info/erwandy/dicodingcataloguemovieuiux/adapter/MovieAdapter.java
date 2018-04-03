@@ -20,7 +20,7 @@ import java.util.Date;
 import java.util.List;
 
 import info.erwandy.dicodingcataloguemovieuiux.R;
-import info.erwandy.dicodingcataloguemovieuiux.search.DetailMovieActivity;
+import info.erwandy.dicodingcataloguemovieuiux.DetailMovieActivity;
 
 /**
  * Created by Nursing Bank IT Dept on 3/19/2018.
@@ -90,6 +90,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
             public void onClick(View v) {
                 MovieItems movieList = movieLists.get(position);
                 Intent Intent = new Intent(context, DetailMovieActivity.class);
+                Intent.putExtra(DetailMovieActivity.EXTRA_ID, movieList.getMov_id());
                 Intent.putExtra(DetailMovieActivity.EXTRA_TITLE, movieList.getMov_title());
                 Intent.putExtra(DetailMovieActivity.EXTRA_OVERVIEW, movieList.getMov_description());
                 Intent.putExtra(DetailMovieActivity.EXTRA_POSTER_JPG, movieList.getMov_image());

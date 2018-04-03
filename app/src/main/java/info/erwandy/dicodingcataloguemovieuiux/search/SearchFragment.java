@@ -18,6 +18,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import info.erwandy.dicodingcataloguemovieuiux.DetailMovieActivity;
 import info.erwandy.dicodingcataloguemovieuiux.R;
 
 
