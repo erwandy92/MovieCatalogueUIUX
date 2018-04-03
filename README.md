@@ -1,9 +1,10 @@
 # MovieCatalogueUIUX
 
-Movie Catalogue UI/UX is completed for the 2nd project of an online course "Menjadi Android Developer Expert (MADE)" by Dicoding.
+Movie Catalogue UI/UX is completed for the 2nd and 4th projects of an online course "Menjadi Android Developer Expert (MADE)" by Dicoding.
 This project is an updated version of the 1st project [Movie Catalogue](https://github.com/erwandy92/Movie-Catalogue).
 
-The updated version, added:
+##Project:
+###2nd Project
 1. Navigation Drawer 
    - Home
    - Search
@@ -14,6 +15,10 @@ The updated version, added:
    - Bahasa Indonesia
    - English
    - Traditional Chinese (繁體中文)
+
+###4th Project
+4. Integrate SQLite
+5. Integrate Content Provider
    
 ## UI/UX
 * [CardView](https://github.com/googlesamples/android-CardView)
@@ -33,3 +38,5 @@ The updated version, added:
 
 ### Created For
 This project was coded specially for a Project designed by [Dicoding](https://www.dicoding.com), course of [Menjadi Android Developer Expert](https://www.dicoding.com/academies/14).
+
+

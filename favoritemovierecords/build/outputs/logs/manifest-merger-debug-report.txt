@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\79161e666b60355e0d2f85483267c9c0\AndroidManifest.xml:2:1-11:12
+MERGED from [me.biubiubiu.justifytext:library:1.1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\library-1.1.aar\26dbd9d1a5ad7b63f5b990b4c5bc7aa7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\a0dace532c4eb1fd1ba238844199c918\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\51cdab27648a9dbeae8b5ad1bfe97221\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:5:22-64
+uses-permission#info.erwandy.dicodingcataloguemovieuiux.READ_DATABASE
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:7:5-93
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:7:22-90
+uses-permission#info.erwandy.dicodingcataloguemovieuiux.WRITE_DATABASE
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:8:5-94
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:8:22-91
+application
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:10:5-25:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\79161e666b60355e0d2f85483267c9c0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\79161e666b60355e0d2f85483267c9c0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\a0dace532c4eb1fd1ba238844199c918\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\a0dace532c4eb1fd1ba238844199c918\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\51cdab27648a9dbeae8b5ad1bfe97221\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\51cdab27648a9dbeae8b5ad1bfe97221\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:16:9-40
+activity#info.erwandy.favoritemovierecords.MainActivity
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:21:27-74
+activity#info.erwandy.favoritemovierecords.DetailActivity
+ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:24:9-61
+	android:name
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml:24:19-49
+uses-sdk
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\79161e666b60355e0d2f85483267c9c0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\79161e666b60355e0d2f85483267c9c0\AndroidManifest.xml:5:5-7:41
+MERGED from [me.biubiubiu.justifytext:library:1.1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\library-1.1.aar\26dbd9d1a5ad7b63f5b990b4c5bc7aa7\AndroidManifest.xml:7:5-9:41
+MERGED from [me.biubiubiu.justifytext:library:1.1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\library-1.1.aar\26dbd9d1a5ad7b63f5b990b4c5bc7aa7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\a0dace532c4eb1fd1ba238844199c918\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0-rc1] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\volley-1.1.0-rc1.aar\a0dace532c4eb1fd1ba238844199c918\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\51cdab27648a9dbeae8b5ad1bfe97221\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\51cdab27648a9dbeae8b5ad1bfe97221\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Android\DicodingCatalogueMovieUIUX\favoritemovierecords\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\7a4e46baaa46dbca6486badcd8dc6d5e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\f485e3a7f55529e3b698da53cd7a5e31\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\ab303fb55f2119c4d45d763bae109567\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\d4d0fa29ba4150d6f4f56acc9bd78e77\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\9ab88d157e06448993bec2cec3bd90e7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\b2210762e45e7e3dcd4806670a7586b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2c94f702e9d581518ce7ba67d762c9cd\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\64e78d9caac09f21e8c8f779a7918074\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f44cb5480716af08137634ef0859b8c2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\4ee060e3fc530e815bc52499771ea741\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\14e75fd3f6c8739d40faaabbdb2511df\AndroidManifest.xml:24:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Nursing Bank IT Dept\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\d3bec7ef6b586079b4390b4b4f3c11dc\AndroidManifest.xml:26:13-58
