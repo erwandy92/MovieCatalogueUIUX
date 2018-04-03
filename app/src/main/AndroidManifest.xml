@@ -28,7 +28,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".search.DetailMovieActivity"></activity>
+        <activity android:name=".DetailMovieActivity"></activity>
+        <provider
+            android:name="info.erwandy.dicodingcataloguemovieuiux.provider.FavoriteProvider"
+            android:authorities="info.erwandy.dicodingcataloguemovieuiux"
+            android:exported="true"
+            android:readPermission="info.erwandy.dicodingcataloguemovieuiux.READ_DATABASE"
+            android:writePermission="info.erwandy.dicodingcataloguemovieuiux.WRITE_DATABASE" />
     </application>
 
 </manifest>
